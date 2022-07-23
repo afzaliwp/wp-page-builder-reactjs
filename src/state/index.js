@@ -12,5 +12,5 @@ export const AppProvider = ( { children } ) => {
 }
 
 export const useAppState = () => {
-    React.useContext( appContext );
+    return React.useContext( appContext );
 }

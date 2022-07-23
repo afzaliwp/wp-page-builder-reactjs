@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Grid, Button } from '@mui/material';
 import Row from './Row';
-import { useAppState } from '../../state';
+import { useAppState } from '../state';
 
 export default function App() {
   const { state, dispatch } = useAppState();
